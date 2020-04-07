@@ -5,7 +5,7 @@ import { Jumbotron, Container, Card, CardBody } from 'reactstrap';
 const JumbotronElem = () => {
     return (
         <div>
-            <Jumbotron fluid>
+            <Jumbotron fluid color ="info">
                 <Container fluid>
                     <h1 className="display-3 text-muted text-center">About Me</h1>
                     <Card>

@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "http://sulakshana-borsune.github.io/portfolio",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,7 @@
   "bugs": {
     "url": "https://github.com/sulakshana-borsune/react-portfolio/issues"
   },
-  "homepage": "https://github.com/sulakshana-borsune/react-portfolio#readme"
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
