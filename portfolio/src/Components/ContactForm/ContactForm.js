@@ -1,17 +1,15 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CssBaseline from '@material-ui/core/CssBaseline'
-import Typography from '@material-ui/core/Typography'
 import Container from '@material-ui/core/Container'
 import Header from '../Footer'
 import { Form, Button } from 'react-bootstrap'
 
-export default function ContctForm() {
+export default function ContactForm() {
   return (
     <React.Fragment>
       <CssBaseline />
       <Container fixed>
-        <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }} />
         <Header/>
         <Form>
   <Form.Group controlId="formBasicName">

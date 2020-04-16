@@ -23,7 +23,14 @@ const Portfolio = () => {
             subtitle: 'Recipes creator',
             description: "New recipes can be added and saved in your own account",
             link: 'https://rocky-castle-73145.herokuapp.com/'
+        },
+        CartnerGolf: {
+            title: 'Cartner-Golf',
+            subtitle: 'Golf app',
+            description: "Invites can be sent to friends and scores can be saved",
+            link: 'https://cartner-golf.herokuapp.com/'
         }
+
     }
 
     return (
@@ -48,6 +55,13 @@ const Portfolio = () => {
                     description={state.googleBooks.description}
                     link={state.googleBooks.link}
                 />
+                <PortfolioCard
+                    title={state.CartnerGolf.title}
+                    subtitle={state.CartnerGolf.subtitle}
+                    description={state.CartnerGolf.description}
+                    link={state.CartnerGolf.link}
+                />
+
             </Container>
         </>
     )

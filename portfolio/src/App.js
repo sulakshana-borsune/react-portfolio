@@ -1,15 +1,17 @@
-import React from 'react'
+import React from 'react';
 import Home from './Pages/Home'
-import PortfolioCard from './Pages/Portfolio'
+import Portfolio from './Pages/Portfolio'
 import Contact from './Pages/Contact'
 import { Route } from 'react-router-dom'
 
-const App =() => {
+function App() {
   return (
     <>
-    <Home/>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/portfolio" component={Portfolio} />
+      <Route exact path="/contact" component={Contact} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

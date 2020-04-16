@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar'
-import ContactForm from '../../Components/Contact'
+import ContactForm from '../../Components/ContactForm'
 import { Container, Card, CardBody } from 'reactstrap'
 import Footer from '../../Components/Footer'
 
